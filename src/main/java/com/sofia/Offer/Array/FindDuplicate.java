@@ -10,7 +10,7 @@ package com.sofia.Offer.Array;
 public class FindDuplicate {
 
     /*
-    * 可以修改数组的
+    * 可以修改数组的算法
     * */
     public static boolean duplicate(int[] nums){
 
