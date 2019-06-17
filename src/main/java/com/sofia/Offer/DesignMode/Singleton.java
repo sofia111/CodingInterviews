@@ -63,7 +63,7 @@ package com.sofia.Offer.DesignMode;
 //    public void whateverMethod(){}
 //}
 
-//双重校验锁
+//双重校验锁//
 public class Singleton{
     private volatile static Singleton singleton;
     private Singleton(){}
