@@ -4,7 +4,6 @@ package com.sofia.Offer.Array;
 *@Author: Sofia
 *@Date: 2019/6/11 16:23
 *@Description: 替换空格，时间复杂度O（n），先遍历一遍字符串，遍历出i个空格，数组空间扩大i个，从后往前挪动数组
- *
  * 举一反三：合并数组时，需要重复移动数组或字符多次，从后往前复制，减少移动次数，提高效率；
 */
 public class ReplaceBlank {
@@ -16,6 +15,7 @@ public class ReplaceBlank {
         }
         int originalLength = 0;
         int numberOfBlank = 0;
+        int jjj = 0;
         int i = 0;
         while(str[i] != '\0'){
             ++originalLength;
