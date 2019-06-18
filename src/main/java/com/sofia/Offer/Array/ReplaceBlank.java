@@ -15,7 +15,6 @@ public class ReplaceBlank {
         }
         int originalLength = 0;
         int numberOfBlank = 0;
-        int jjj = 0;
         int i = 0;
         while(str[i] != '\0'){
             ++originalLength;
